@@ -1,0 +1,626 @@
+/* site font started */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/plus-jakarta-sans-regular.woff2") format("woff2"),
+    url("./fonts/plus-jakarta-sans-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/plus-jakarta-sans-500.woff2") format("woff2"),
+    url("./fonts/plus-jakarta-sans-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/plus-jakarta-sans-600.woff2") format("woff2"),
+    url("./fonts/plus-jakarta-sans-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/plus-jakarta-sans-700.woff2") format("woff2"),
+    url("./fonts/plus-jakarta-sans-700.woff") format("woff");
+}
+
+/* The site has run out of fonts */
+/* site style started */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* header style started */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #eeeef4;
+}
+
+.site__header-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.header__logo-link:hover {
+  opacity: 0.8;
+}
+
+.header__logo-link:active {
+  opacity: 0.6;
+}
+
+.header-navigation {
+  margin-left: 50px;
+}
+
+.header__navigation-list {
+  display: flex;
+  column-gap: 30px;
+  margin: 0;
+}
+
+.header__item-link {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  color: #101010;
+}
+
+.header__item-link:hover {
+  color: #1aab7b;
+}
+
+.header__item-link:active {
+  color: #1aab7b;
+  opacity: 0.6;
+}
+
+.site__header-tel {
+  margin-left: auto;
+  padding: 12px 24px;
+  font-size: 14px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #fff;
+  background-color: #101010;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+.site__header-tel:hover {
+  color: #1aab7b;
+  background-color: #fff;
+  border: 1px solid #1aab7b;
+  border-radius: 6px;
+}
+
+.site__header-tel:active {
+  color: #fff;
+  background-color: #101010;
+  opacity: 0.6;
+  border-color: transparent;
+  border-radius: 6px;
+}
+
+/* header style is over */
+/* main style has started */
+/* the next stage style began */
+
+.hero {
+  background-color: #fff;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 91px;
+  padding-bottom: 156px;
+}
+
+.hero__text-box {
+  width: 550px;
+}
+
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 56px;
+  line-height: 140%;
+  font-weight: 700;
+  color: #101010;
+}
+
+.hero-paragrph {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #636f87;
+}
+
+.hero-link {
+  padding: 20px 40px;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1aab7b;
+  border: 1.5px solid transparent;
+  border-radius: 6px;
+}
+
+.hero-link:hover {
+  color: #1aab7b;
+  background-color: #fff;
+  border: 1.5px solid #1aab7b;
+  border-radius: 6px;
+}
+
+.hero-link:active {
+  color: #fff;
+  background-color: #1aab7b;
+  opacity: 0.7;
+  border-radius: 6px;
+}
+
+/* the next step is to finish the style */
+/* The list for the contests started in style */
+
+.choices {
+  background-color: #f2f4f6;
+}
+
+.choices-wrapper {
+  padding: 50px 0;
+}
+
+.choices-heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 140%;
+  font-weight: 600;
+  text-align: center;
+  color: #101010;
+}
+
+.choices-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+  margin: 0;
+}
+
+.choices-item {
+  width: 384px;
+  padding: 30px 35px 40px;
+  background-color: #f2f4f6;
+  border: 2px solid #e1e7ed;
+  border-radius: 6px;
+}
+
+.item-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choices__item-heading {
+  margin: 0;
+  font-size: 32px;
+  line-height: 140%;
+  font-weight: 600;
+  color: #101010;
+}
+
+.item__img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 11px;
+  background-color: #e1e7ed;
+  border-radius: 50%;
+}
+
+.choices__item-paragrph {
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #636f87;
+}
+
+.choices__item-link {
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: 700;
+  color: #000;
+}
+
+.item__paragrph {
+  margin-bottom: 50px;
+}
+
+.choices-item:hover {
+  border: 2px solid transparent;
+  background-color: #1aab7b;
+}
+
+.choices-item:hover .choices__item-heading {
+  color: #fff;
+}
+
+.choices-item:hover .item__img-box {
+  background-color: #fff;
+}
+
+.choices-item:hover .choices__item-paragrph {
+  color: #fff;
+}
+
+.choices-item:hover .choices__item-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* The list for the contests is finished in style */
+/* start our working process style */
+
+.aboutus {
+  background-color: #fff;
+}
+
+.aboutus-wrapper {
+  padding: 100px 0;
+}
+
+.aboutus__text-box {
+  width: 650px;
+  margin: 0 auto 90px;
+  text-align: center;
+}
+
+.aboutus-heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  color: #101010;
+}
+
+.aboutus-paragrph {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #636f87;
+}
+
+.aboutus-list {
+  margin: 0;
+}
+
+.aboutus-item {
+  display: flex;
+  margin-bottom: 100px;
+  column-gap: 32px;
+}
+
+.aboutus__item-box {
+  width: 480px;
+}
+
+.aboutus__item-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-right: 30px;
+  font-size: 40px;
+  line-height: 140%;
+  font-weight: 700;
+  color: #101010;
+}
+
+.aboutus__item-paragrph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #636f87;
+}
+
+.aboutus__item-medium {
+  flex-direction: row-reverse;
+}
+
+.item__box-medium {
+  width: 592px;
+}
+
+.aboutus__item-end {
+  margin-bottom: 0;
+}
+
+/* Our performance process style is over */
+/* registration process has started */
+
+.registration {
+  background-color: #fff;
+}
+
+.registration-wrapper {
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.registration__text-box {
+  width: 620px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.registration-heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding: 0 65px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  color: #101010;
+}
+
+.registration-paragrph {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #636f87;
+}
+
+.registration-form {
+  display: block;
+  width: 1008px;
+  margin: 0 auto;
+  padding: 43px 312px 64px;
+  text-align: center;
+  background-color: #f2f4f6;
+  border-radius: 6px;
+}
+
+.registration-input {
+  display: block;
+  width: 384px;
+  margin-bottom: 30px;
+  padding: 21px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  background-color: #f2f4f6;
+  outline: none;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #636f87;
+}
+
+.registration-input::placeholder {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #101010;
+}
+
+.registration-select {
+  display: block;
+  width: 384px;
+  margin-bottom: 40px;
+  padding: 21px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #101010;
+  background-color: #f2f4f6;
+  outline: none;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #636f87;
+}
+
+.registration__form-button {
+  margin-bottom: 24px;
+  padding: 20px 70px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #fff;
+  background-color: #1aab7b;
+  border: 1.5px solid transparent;
+  border-radius: 6px;
+}
+
+.registration__form-button:hover {
+  color: #1aab7b;
+  background-color: #fff;
+  border: 1.5px solid #1aab7b;
+  border-radius: 6px;
+}
+
+.registration__form-button:active {
+  color: #fff;
+  background-color: #1aab7b;
+  opacity: 0.7;
+  border: 1.5px solid transparent;
+  border-radius: 6px;
+}
+
+.registration__form-paragrph {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #858ea2;
+}
+
+/* The registration process has ended */
+/* main style is over */
+/* footer style started */
+
+.site-footer {
+  background-color: #101010;
+}
+
+.footer-top {
+  border-bottom: 1px solid #3b4155;
+}
+
+.footer__top-wrapper {
+  display: flex;
+  padding: 100px 0;
+}
+
+.footer__top-box {
+  display: flex;
+  column-gap: 151px;
+}
+
+.footer__top-list {
+  margin: 0;
+}
+
+.footer__item-top {
+  margin-bottom: 30px;
+}
+
+.top__item-tile {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #fff;
+}
+
+.footer__top-item {
+  margin-bottom: 26px;
+}
+
+.top__item-link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #a1a8b7;
+}
+
+.top__item-link:hover {
+  color: #1aab7b;
+}
+
+.top__item-link:active {
+  color: #1aab7b;
+  opacity: 0.8;
+}
+
+.footer-address {
+  width: 280px;
+  margin-left: auto;
+  font-style: normal;
+}
+
+.footer__address-list {
+  margin: 0;
+}
+
+.address__item-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #fff;
+}
+
+.footer__address-item {
+  margin-bottom: 26px;
+}
+
+.footer__item-end {
+  margin-bottom: 0;
+}
+
+.address__item-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #a1a8b7;
+}
+
+.branch-list {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 0;
+  column-gap: 43px;
+}
+
+.footer__end-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 49px 0;
+}
+
+.footer__end-link:hover {
+  opacity: 0.8;
+}
+
+.footer__end-link:active {
+  opacity: 0.6;
+}
+
+.footer__end-paragrph {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #fff;
+}
+
+/* the footer style is over */
+/* site style finish */
